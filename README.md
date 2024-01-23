@@ -1,9 +1,9 @@
 # datasette-proxy-url
 
 [![PyPI](https://img.shields.io/pypi/v/datasette-proxy-url.svg)](https://pypi.org/project/datasette-proxy-url/)
-[![Changelog](https://img.shields.io/github/v/release/simonw/datasette-proxy-url?include_prereleases&label=changelog)](https://github.com/simonw/datasette-proxy-url/releases)
-[![Tests](https://github.com/simonw/datasette-proxy-url/actions/workflows/test.yml/badge.svg)](https://github.com/simonw/datasette-proxy-url/actions/workflows/test.yml)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/datasette-proxy-url/blob/main/LICENSE)
+[![Changelog](https://img.shields.io/github/v/release/datasette/datasette-proxy-url?include_prereleases&label=changelog)](https://github.com/datasette/datasette-proxy-url/releases)
+[![Tests](https://github.com/datasette/datasette-proxy-url/actions/workflows/test.yml/badge.svg)](https://github.com/datasette/datasette-proxy-url/actions/workflows/test.yml)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/datasette/datasette-proxy-url/blob/main/LICENSE)
 
 Proxy a URL through a Datasette instance
 
