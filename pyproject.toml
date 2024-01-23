@@ -1,0 +1,31 @@
+[project]
+name = "datasette-proxy-url"
+version = "0.1"
+description = "Proxy a URL through a Datasette instance"
+readme = "README.md"
+authors = [{name = "Simon Willison"}]
+license = {text = "Apache-2.0"}
+classifiers=[
+    "Framework :: Datasette",
+    "License :: OSI Approved :: Apache Software License"
+]
+requires-python = ">=3.8"
+dependencies = [
+    "datasette",
+    "httpx"
+]
+
+[project.urls]
+Homepage = "https://github.com/simonw/datasette-proxy-url"
+Changelog = "https://github.com/simonw/datasette-proxy-url/releases"
+Issues = "https://github.com/simonw/datasette-proxy-url/issues"
+CI = "https://github.com/simonw/datasette-proxy-url/actions"
+
+[project.entry-points.datasette]
+proxy_url = "datasette_proxy_url"
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-asyncio", "pytest-httpx", "datasette-test"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "strict"
