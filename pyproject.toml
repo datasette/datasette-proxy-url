@@ -16,10 +16,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/simonw/datasette-proxy-url"
-Changelog = "https://github.com/simonw/datasette-proxy-url/releases"
-Issues = "https://github.com/simonw/datasette-proxy-url/issues"
-CI = "https://github.com/simonw/datasette-proxy-url/actions"
+Homepage = "https://github.com/datasette/datasette-proxy-url"
+Changelog = "https://github.com/datasette/datasette-proxy-url/releases"
+Issues = "https://github.com/datasette/datasette-proxy-url/issues"
+CI = "https://github.com/datasette/datasette-proxy-url/actions"
 
 [project.entry-points.datasette]
 proxy_url = "datasette_proxy_url"
