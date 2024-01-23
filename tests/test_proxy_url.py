@@ -2,6 +2,13 @@ from datasette_test import Datasette
 import pytest
 
 
+@pytest.fixture
+def non_mocked_hosts():
+    # This ensures httpx-mock will not affect Datasette's own
+    # httpx calls made in the tests by datasette.client:
+    return ["localhost"]
+
+
 @pytest.mark.asyncio
 async def test_proxy_plugin(httpx_mock):
     httpx_mock.add_response(
